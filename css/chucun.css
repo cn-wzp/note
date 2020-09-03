@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1597932281109');
+    /* IE9 */
+    src: url('iconfont.eot?t=1597932281109#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARgAAsAAAAACRgAAAQSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDXgqEZIN/ATYCJAMcCxAABCAFhG0HYhvZB8gOJaGgwAAAIAFgBNF+r7Pv7kEIXaIAZTxrJBt2kaxqW2EqVI2oElUYNOL/fZv2CBVCrCqsWU098iHEyFAqTlfE/JTb7k08f3+omrEwgPPZtzjNvShAuQgGbO+2tshSkKJ3GLu8yPsE2o2aDFvNKaoCQqYvC8QNy6iBSOjkiuLQCFXB3gzxDRw1xRzJfQBfvd+PT4gIAhTKBPrajbNsHaS9ELYHuGgXocnBAH84C9ghEuaATHwptD0DHsTm4NrlyQ52gG6NQjXUa0nbKFuWbZ7tgd1Osl0fDt1GLoWk3KCnIqz/HSrsBAcoXvFCIETBC4lIvIxClLxkIYKXeYjMywO5Q8XXi7vR4AeAF0CctxUCc7xzl+U+cilJBPWRR1NqV230qll53KPqZhbBnFy/fL1n9fkwcu5ugOc9MtmR5AxmQ9qKU961N3Ih5sQXrNrkVXMpUjZvH4YN7217/rzq5cuaV69qX7zo06ycu1v0rFYS2h6Zqmr5+nne2lXDrbWIqdahKlpXw/gfTaKZ5CoV7H9/Eq049SzYUcmRFWQZCT13J54EShQ2bf3jKLnkM+Y+DcLlJ58OP4tV4JueJY3415fhm2xaJP6aX/aT2JRiyslJTVB8flJ/iYsyJ0T0u81222bFu6OTEuk6aT4LE9CaOdCykfiJMVMz6MnR3W6rUdlqlYhVmM3lthijHCguhxzIic6C2M1VYF/jO9Jvzt27ggLzwxSCnz7Hb6TvGrC7kyD8N2NErbpWvR6na5CBadO14UqtDkJPX760j9fFdu/DY7Lg1Vhp1+K5i7ukZWXi0v2u3133a44ClcTPH5SjR2Oz8sNnGJ7ytuHtFEK7eqHhwtWvVn6AQYDWdvwr3gxAepJsAWgdwR/hpQCkPclegNb11IAnwcR0BwwXf5K/MXXl7daqSvpGyBwAfum2/YKCZjJ403KN+b9ESwZa9hycUNfXWeptNQjU1gbiOp527VQl6K5+H4dTDDUuJDSGIijURiBpjGEzcQ5KHeah0liAdrNyD3cYwMNFlgIzZgAIvQ5BodtPSHo9wGbiBygN+wKV3sCh3V64n9lhIlgyk0dqAekoTQ/FajkLbRoF0i+uQEyHSc3HhR6tBvHtbJAKDwlLJ3ORBfFDbGjvZCIEgaZonjNTOeAxZDJxlJXnDEgrhOgFwZoQGkoX/VCIljMDaQUPURMgOhSNHhSWFseCdkYLyMzrKyCMDiZqfEVXmb0GwmvHjk8JFyKsATZXZmnUdSmT23ViRBAIaLyIxuOYUXKgBTEZMQ7FWjzLANEShNB3iFglCEWD6KaykOkV5hvIZX3o765DguGYA+aIOWHOGAHVrR716lmyh+swsGqL4BZg3WRvBxebQJjUBlbgLIxTKqpXcwAAAA==') format('woff2'), url('iconfont.woff?t=1597932281109') format('woff'), url('iconfont.ttf?t=1597932281109') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1597932281109#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,500,700&display=swap');
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,500,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    position: relative;
+}
+
+h1 button {
+    position: absolute;
+    right: 0;
+    transform: translate(120%, -50%);
+    z-index: 2;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.btn-small {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.btn-ghost {
+    border: 0;
+    background-color: transparent;
+}
+
+.clear {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.cards {
+    perspective: 1000px;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.card {
+    position: absolute;
+    opacity: 0;
+    font-size: 1.5em;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateX(50%) rotateY(-10deg);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.card.active {
+    cursor: pointer;
+    opacity: 1;
+    z-index: 10;
+    transform: translateX(0) rotateY(0deg);
+}
+
+.card .left {
+    transform: translateX(-50%) rotateY(10deg);
+}
+
+.inner-card {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease;
+}
+
+.card.show-answer .inner-card {
+    transform: rotateX(180deg);
+}
+
+.inner-card-front,
+.inner-card-back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.inner-card-front {
+    transform: rotateX(0deg);
+    z-index: 2;
+}
+
+.inner-card-back {
+    transform: rotateX(180deg);
+}
+
+.inner-card-front::after,
+.inner-card-back::after {
+    content: '\f021  Flip';
+    font-family: 'Font Awesome 5 Free', Lato, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.navigation {
+    display: flex;
+    margin: 20px 0;
+}
+
+.navigation .nav-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navigation p {
+    margin: 0 25px;
+}
+
+.add-container {
+    opacity: 0;
+    z-index: -1;
+    background-color: #f0f0f0;
+    border-top: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.add-container.show {
+    opacity: 1;
+    z-index: 2;
+}
+
+.add-container h3 {
+    margin: 10px 0;
+}
+
+.form-group label {
+    display: block;
+    margin: 20px 0 10px;
+}
+
+.form-group textarea {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 12px;
+    min-width: 500px;
+    max-width: 100%;
+}
